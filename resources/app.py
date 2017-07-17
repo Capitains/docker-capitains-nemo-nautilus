@@ -2,7 +2,7 @@
 
 from flask import Flask, request
 from flask_nemo import Nemo
-from capitains_nautilus.flask_ext import FlaskNautilus, WerkzeugCacheWrapper
+from capitains_nautilus.flask_ext import FlaskNautilus
 from capitains_nautilus.cts.resolver import NautilusCTSResolver
 from werkzeug.contrib.cache import FileSystemCache
 from flask_caching import Cache
