@@ -19,7 +19,7 @@ def scheme_grouper(text, getreffs):
         level, groupby = 2, 2
     elif "line" in types:
         groupby = 30
-return level_grouper(text, getreffs, level, groupby)
+    return level_grouper(text, getreffs, level, groupby)
 
 nemo_config = {
     "chunker": {
